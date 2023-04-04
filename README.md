@@ -1,3 +1,9 @@
+Плейлист про все https://www.youtube.com/watch?v=m7asgk5F0u8&list=PLA0M1Bcd0w8xZA3Kl1fYmOH_MfLpiYMRs&index=7
+____
+Краткая выжимка за 10 мин https://www.youtube.com/watch?v=TmDetBtk5rw
+____
+Официальня дока https://www.django-rest-framework.org/api-guide/serializers/
+____
 1. /admin/ - Админ панель
 
 ____
