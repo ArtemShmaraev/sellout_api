@@ -4,10 +4,9 @@ ____
 ____
 Официальня дока https://www.django-rest-framework.org/api-guide/serializers/
 ____
-1. /admin/ - Админ панель
+0. /admin/ - Админ панель
 
-api/v1/user инфа о пользователях
-9. 
+1. api/v1/user инфа о пользователях
 
 2. /api/v1/product/ - инфа по всем товарам
 3. /api/v1/product/<int:product_id> - инфа по товару по его id
