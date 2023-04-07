@@ -22,5 +22,11 @@ ____
 9. /api/v1/user/<int:id> инфа о пользователе
 10. /api/v1/user/last_seen/<int:id> инфа 7 последних просмотров пользователя
 ____
-11. /api/v1/user/wishlist/<int:user_id> избранное пользователя
-12.  /api/v1/user/add_wishlist/<int:user_id>/<int:product_id>/<int:size_id> добавить в избранное пользователя товар и его размер
+11. /api/v1/wishlist/<int:user_id> избранное пользователя
+12. /api/v1/wishlist/add/<int:user_id>/<int:product_id>/ добавить в избранное пользователя товар и его размер
+13. /api/v1/wishlist/delete/<int:user_id>/<int:product_id> удалить из избранного
+
+14. /api/v1/wishlist/add_no_size/<int:user_id>/<int:product_id> добавить в избранное пользователя товар и его размер (фиетивный размер) INT=0
+15. /api/v1/wishlist/delete_no_size/<int:user_id>/<int:product_id> удалить из избранного (фиктивный размер) INT=0
+
+
