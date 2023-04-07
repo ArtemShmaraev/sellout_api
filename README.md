@@ -28,5 +28,6 @@ ____
 
 14. /api/v1/wishlist/add_no_size/<int:user_id>/<int:product_id> добавить в избранное пользователя товар и его размер (фиетивный размер) INT=0
 15. /api/v1/wishlist/delete_no_size/<int:user_id>/<int:product_id> удалить из избранного (фиктивный размер) INT=0
-
+____
+16. /api/v1/cart/user/<int:user_id> корзина user
 
