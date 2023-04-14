@@ -54,7 +54,7 @@ Response:
     }
 ]
 ```
-[SellOut](#SellOut)
+[SellOut API](#SellOut API)
 ### 2. `[GET][Admin] user/<user_id>` данные пользователя
 
 Response:
