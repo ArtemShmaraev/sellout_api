@@ -1,4 +1,4 @@
-# SellOut API
+<a name="up"># SellOut API
 ## User API
 ### 1. `[GET][Admin] user` информация обо всех пользователях, списком
 
@@ -54,7 +54,7 @@ Response:
     }
 ]
 ```
-[SellOut API](#SellOut API)
+[Назад](#up)
 ### 2. `[GET][Admin] user/<user_id>` данные пользователя
 
 Response:
