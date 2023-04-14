@@ -1,5 +1,8 @@
-<a name="up"># SellOut API
+<a name="up"></a>
+# SellOut API
+<a name="user"></a>
 ## User API
+[:arrow_up:Назад](#up)
 ### 1. `[GET][Admin] user` информация обо всех пользователях, списком
 
 Response:
@@ -54,8 +57,7 @@ Response:
     }
 ]
 ```
-[Назад](#up)
-тут
+[:arrow_up:Назад](#user)
 ### 2. `[GET][Admin] user/<user_id>` данные пользователя
 
 Response:
@@ -130,7 +132,7 @@ Response:
     ]
 }
 ```
-[:arrow_up:Назад](#SellOut API)
+[:arrow_up:Назад](#user)
 ### 3. `[POST][Anon] user/register` регистрация пользователя
 
 Body:
@@ -151,7 +153,7 @@ Response:
     "access": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjgxNTYzNzI5LCJpYXQiOjE2ODE0NzczMjksImp0aSI6IjJjY2ZiZjNiZTJhYzQ3YTQ4NWRkNTY4ZGQzNWFiNzRhIiwidXNlcl9pZCI6MTd9.l-PcMX4WeUWmD5-egu1PNlgH_EdQb3tm2uIWUp57MzE"
 }
 ```
-[:arrow_up:Назад](#SellOut API)
+[:arrow_up:Назад](#user)
 ### 4. `[POST][Anon] user/login` вход в систему
 
 Body:
@@ -168,7 +170,7 @@ Response:
     "access": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjgxNTYzNzI5LCJpYXQiOjE2ODE0NzczMjksImp0aSI6IjJjY2ZiZjNiZTJhYzQ3YTQ4NWRkNTY4ZGQzNWFiNzRhIiwidXNlcl9pZCI6MTd9.l-PcMX4WeUWmD5-egu1PNlgH_EdQb3tm2uIWUp57MzE"
 }
 ```
-[:arrow_up:Назад](#SellOut API)
+[:arrow_up:Назад](#user)
 ### 5. `[GET][User] user/last_seen/<user_id>` последние 7 просмотренных товаров пользователя
 
 Response:
@@ -248,8 +250,11 @@ Response:
     }
 ]
 ```
-[:arrow_up:Назад](#SellOut API)
+[:arrow_up:Назад](#user)
+
+<a name="product"></a>
 ## Product APi
+[:arrow_up:Назад](#up)
 
 ### 1. `[GET][Admin] product` все товары
 Response:
@@ -325,7 +330,7 @@ Response:
     }
 ]
 ```
-[:arrow_up:Назад](#SellOut API)
+[:arrow_up:Назад](#product)
 ### 2. `[GET][Admin] product/<product_id>` данные одного товара
 Response:
 ```json
@@ -364,7 +369,7 @@ Response:
     ]
 }
 ```
-[:arrow_up:Назад](#SellOut API)
+[:arrow_up:Назад](#product)
 ### 3. `[GET][Anon] product/all/<num_page>` страница товаров 
 Response:
 ```json
@@ -446,7 +451,9 @@ Response:
     ]
 }
 ```
-[:arrow_up:Назад](#SellOut API)
+[:arrow_up:Назад](#product)
+<a name="shipping"></a>
+[:arrow_up:Назад](#up)
 ## Shipping API
 ### 1. `[GET][Anon] product_unit/product/<product_id>` все product_unit для данного товара
 Response:
@@ -537,7 +544,7 @@ Response:
     }
 ]
 ```
-[:arrow_up:Назад](#SellOut API)
+[:arrow_up:Назад](#shipping)
 ### 2. `[GET][Anon] product_unit/product_main/<product_id>/<user_id>` "картока товара" (если пользователь не авторизован user_id = 0)
 Response:
 ```json
@@ -579,6 +586,6 @@ Response:
 }
 
 ```
-[:arrow_up:Назад](#SellOut API)
+[:arrow_up:Назад](#shipping)
 
 ## WishList API
