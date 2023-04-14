@@ -55,6 +55,7 @@ Response:
 ]
 ```
 [Назад](#up)
+тут
 ### 2. `[GET][Admin] user/<user_id>` данные пользователя
 
 Response:
